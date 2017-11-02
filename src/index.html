@@ -2,13 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Libproject</title>
+  <title>Fast Food Delivery</title>
   <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  <!--
+ <,script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+<body ng-app="myApp">-->
+    <br>
+    <style>
+        #marvin{
+          background-color: chartreuse;
+        }
+      
+    </style>
+    <div style="text-align: center">
+    <div class="container" id="marvin">
+   <table align="center">
+    <th  width="100" rowspan="4" colspan="4"><div align="left"><a href="/home">HOME</a></th>
+    <th width="290" rowspan="4" colspan="6"><div align="center"><a href="/order">QUICK ORDER</a></th>
+    <th width="200" rowspan="4" colspan="4"><div align="center"><a href="/sign">SIGN UP</a></th>
+    <th width="250" rowspan="4" colspan="2"><div align="center"><a href="/login">SIGN IN</a></th>
+    <th width="140" rowspan="4" colspan="5"><div align="right"><a href="/user">ABOUT US</a></th><br>
+    </table><br>
+    </div>
+    </div>
+    <div ng-view></div>
+  
+   
   <app-root></app-root>
 </body>
 </html>
